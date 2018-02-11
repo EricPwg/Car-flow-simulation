@@ -1,5 +1,5 @@
 電腦環境需求
-Python3.6
+Python3.6(Anaconda)
 Matplotlib
 Windows較佳
 
