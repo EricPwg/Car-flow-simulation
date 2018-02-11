@@ -113,7 +113,7 @@ def plot_figure(simulation_id, dot_flag, plot_red_alpha, p):
     ax.set_title(simulation_id)
     ax.set_ylabel('distance')
     ax.set_xlabel('time')
-    fig.savefig(p+'\\'+simulation_id+'\\'+simulation_id+'_Car_As.png')
+    fig.savefig(p+'\\'+simulation_id+'\\'+simulation_id+'_Car_As.png', dpi = 200)
         
     fig, ax = plt.subplots()
     for i in range(len(green_ts)):
@@ -164,4 +164,4 @@ def plot_figure(simulation_id, dot_flag, plot_red_alpha, p):
     ax.set_title(simulation_id)
     ax.set_xlabel('time')
     ax.set_ylabel('distance')
-    fig.savefig(p+'\\'+simulation_id+'\\'+simulation_id+'_Car_Bs.png')
+    fig.savefig(p+'\\'+simulation_id+'\\'+simulation_id+'_Car_Bs.png', dpi = 200)
